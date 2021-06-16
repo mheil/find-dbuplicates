@@ -4,18 +4,17 @@ find-duplicates
 desciption
 ----------
 
-`find-duplicates` is a command line utilities that searches multiline strings and prints the
-line-numbers of the occurances for non-unique lines. `find-duplicates` either process the 
-first command line argument, or stdin, of no command line arguments have been given.
+`find-duplicates` is a command line utility that searches for non-unique lines
+in texts read from stdin or file and prints the line numbers in which they occurred.
 
 usage
 -----
 
 ```
-find-duplicates "content1
+echo "content1
 content2
 content1
-content3"
+content3" | find-duplicates
 ``` 
 
 will output:
