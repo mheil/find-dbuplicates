@@ -2,3 +2,6 @@
 .idea
 *.iml
 
+### build-artifacts
+/find-duplicates.exe
+/find-duplicates
